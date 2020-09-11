@@ -1,0 +1,23 @@
+{
+  "name": "@thimlohsedev/test_cli",
+  "version": "1.0.0",
+  "description": "Boilerplate for custom node cli",
+  "main": "index.js",
+  "bin": {
+    "@thimlohsedev/test_cli": "bin/test_cli",
+    "test_cli": "bin/test_cli"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "test"
+  ],
+  "author": "Thim Lohse",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "minimist": "^1.2.5"
+  }
+}
