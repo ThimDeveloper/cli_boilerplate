@@ -8,5 +8,7 @@ export async function cli(rawArgs) {
   console.log("rawArgs", rawArgs);
   console.log("args", args);
 
+  // Do something fun here
+
   return;
 }
