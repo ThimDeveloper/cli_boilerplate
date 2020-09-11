@@ -1,18 +1,19 @@
 {
-  "name": "@thimlohsedev/test_cli",
+  "name": "@thimlohsedev/cli_boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate for custom node cli",
-  "main": "index.js",
+  "main": "src/index.js",
   "bin": {
-    "@thimlohsedev/test_cli": "bin/test_cli",
-    "test_cli": "bin/test_cli"
+    "@thimlohsedev/cli_boil": "bin/cli_boilerplate",
+    "cli_boil": "bin/cli_boilerplate"
   },
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
     "cli",
-    "test"
+    "test",
+    "boilerplate"
   ],
   "author": "Thim Lohse",
   "license": "ISC",
